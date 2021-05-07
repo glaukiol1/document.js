@@ -29,3 +29,9 @@ You should add the `type="module"` in order for the script to work, learn more [
 ## ❓ What now?
 
 Look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTATION.md)!
+
+## 💥 Contributors
+
+The people below contributed to document.js;
+
+- [@Atkinstinkmoore](https://github.com/Atkinstinkmoore)
