@@ -31,7 +31,7 @@ function addDOMElememtWithClass(parentId, typeOfElement, innerHTMLElement, eleme
     parent.appendChild(newElement);
 }
 
-function addDOMElememtWithClassAndID(parentId, typeOfElement, innerHTMLElement, elementClass, elementId) {
+function addDOMElememtWithIdAndClass(parentId, typeOfElement, innerHTMLElement, elementId, elementClass) {
     const parent = document.getElementById(parentId);
     const newElement = document.createElement(typeOfElement);
     newElement.innerHTML = innerHTMLElement;
@@ -44,6 +44,6 @@ export default {
     addDOMElememtNoParams,
     addDOMElememtWithID,
     addDOMElememtWithClass,
-    addDOMElememtWithClassAndID
+    addDOMElememtWithIdAndClass
 }
 // All of the modules are coded by @glaukiol1

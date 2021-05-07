@@ -15,7 +15,7 @@ const createDiv = div.createDiv;
 const addDOMElememtNoParams = main.addDOMElememtNoParams;
 const addDOMElememtWithID = main.addDOMElememtWithID;
 const addDOMElememtWithClass = main.addDOMElememtWithClass;
-const addDOMElememtWithClassAndID = main.addDOMElememtWithClassAndID;
+const addDOMElememtWithIdAndClass = main.addDOMElememtWithIdAndClass;
 
 const h1HeadingWithIDandClass = one.h1HeadingWithIDandClass;
 const h1HeadingWithID = one.h1HeadingWithID;
@@ -43,30 +43,30 @@ const paragraphWithNoParams = p.paragraphNoParams;
 const paragraphWithClass = p.paragraphWithClass;
 
 export default {
-    addDOMElememtNoParams,
-    addDOMElememtWithID,
-    addDOMElememtWithClass,
-    addDOMElememtWithClassAndID,
-    h1HeadingWithIDandClass,
-    h1HeadingWithID,
-    h1HeadingWithNoParams,
-    h1HeadingWithClass,
-    h2HeadingWithIDandClass,
-    h2HeadingWithID,
-    h2HeadingWithNoParams,
-    h2HeadingWithClass,
-    h3HeadingWithIDandClass,
-    h3HeadingWithID,
-    h3HeadingWithNoParams,
-    h3HeadingWithClass,
-    h4HeadingWithIDandClass,
-    h4HeadingWithID,
-    h4HeadingWithNoParams,
-    h4HeadingWithClass,
-    paragraphWithIDandClass,
-    paragraphWithID,
-    paragraphWithNoParams,
-    paragraphWithClass,
+    newElement: addDOMElememtNoParams,
+    newElementWithId: addDOMElememtWithID,
+    newElementWithClass: addDOMElememtWithClass,
+    newElementWithClassAndId: addClass,
+    h1WithIdAndClass: h1HeadingWithIDandClass,
+    h1WithId: h1HeadingWithID,
+    h1: h1HeadingWithNoParams,
+    h1WithClass: h1HeadingWithClass,
+    h2WithIdAndClass: h2HeadingWithIDandClass,
+    h2WithId: h2HeadingWithID,
+    h2: h2HeadingWithNoParams,
+    h2WithClass: h2HeadingWithClass,
+    h3WithIdAndClass: h3HeadingWithIDandClass,
+    h3WithId: h3HeadingWithID,
+    h3: h3HeadingWithNoParams,
+    h3WithClass: h3HeadingWithClass,
+    h4WithIdAndClass: h4HeadingWithIDandClass,
+    h4WithId: h4HeadingWithID,
+    h4: h4HeadingWithNoParams,
+    h4WithClass: h4HeadingWithClass,
+    pWithIdAndClass: paragraphWithIDandClass,
+    pWithId: paragraphWithID,
+    p: paragraphWithNoParams,
+    pWithClass: paragraphWithClass,
     createDiv,
     addClass,
     addId,
