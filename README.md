@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Document.JS</h1>
-  <p>Interaction with the documentjs, made easy.</p>
+  <p>Interaction with the document, made easy.</p>
   <img src="https://github.com/glaukiol1/Document.JS/blob/main/logo_size.jpg" />
   <br>
   <p align="center">
