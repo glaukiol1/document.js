@@ -34,4 +34,4 @@ export default {
     h4HeadingWithNoParams,
     h4HeadingWithClass
 }
-// All of the modules are coded by @glaukiol_
+// All of the modules are coded by @glaukiol1

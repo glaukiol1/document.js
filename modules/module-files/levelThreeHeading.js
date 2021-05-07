@@ -34,4 +34,4 @@ export default {
     h3HeadingWithNoParams,
     h3HeadingWithClass
 }
-// All of the modules are coded by @glaukiol_
+// All of the modules are coded by @glaukiol1

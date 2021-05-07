@@ -19,4 +19,4 @@ export default {
     createDiv
 }
 
-// All of the modules are coded by @glaukiol_
+// All of the modules are coded by @glaukiol1
