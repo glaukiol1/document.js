@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Document.JS</h1>
-  <p>Interaction with the documentjs, made easy.</p>
+  <h1>document.js</h1>
+  <p>Interaction with the document, made easy.</p>
   <img src="https://github.com/glaukiol1/Document.JS/blob/main/logo_size.jpg" />
   <br>
   <p align="center">
@@ -28,4 +28,4 @@ You should add the `type="module"` in order for the script to work, learn more [
 
 ## ❓ What now?
 
-Now, look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTATION.md)!
+Look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTATION.md)!
