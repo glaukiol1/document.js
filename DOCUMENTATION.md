@@ -164,3 +164,7 @@ p( *parentId* , *innerHTMLElement* )
 **_innerHTMLElement_** is a string and is the text you want inside your element.
 
 So you can see it is way easier to use this method, and, yes, but it only is for paragarphs and headers, and not for anything else.
+
+#
+
+#### Thanks to [@Atkinstinkmoore](https://github.com/Atkinstinkmoore) for contributing to this file.
