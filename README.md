@@ -28,4 +28,4 @@ You should add the `type="module"` in order for the script to work, learn more [
 
 ## ❓ What now?
 
-Now, look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTATION.md)!
+Look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTATION.md)!
