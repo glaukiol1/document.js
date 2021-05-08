@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/license-MIT-orange.svg"/>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
     <img alt="language" src="https://img.shields.io/badge/language-Javascript-purple.svg">
-    <img src="https://img.badgesize.io/glaukiol1/document.js/main/modules/exports.js?compression=gzip&label=Size">
+    <img src="https://img.badgesize.io/glaukiol1/document.js/main/modules/exports.js?label=Size">
   </p>
 </div>
 
