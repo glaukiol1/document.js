@@ -1,0 +1,23 @@
+{
+  "name": "document.js",
+  "version": "0.0.1-beta",
+  "description": "document.js, interaction with the DOM made simple.",
+  "main": ".",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaukiol1/document.js.git"
+  },
+  "author": "glaukiol1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaukiol1/document.js/issues"
+  },
+  "homepage": "https://github.com/glaukiol1/document.js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
