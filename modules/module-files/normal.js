@@ -40,10 +40,22 @@ function addDOMElememtWithIdAndClass(parentId, typeOfElement, innerHTMLElement, 
     parent.appendChild(newElement);
 }
 
+function newElement(parentId, innerHTMLElement, elementID, elementClass) {
+    if (!parentId || !innerHTMLElement) {
+        throw Error('Looks like you missed / typed an incorrect parameter at the call for h2.')
+    }
+    if(elementID && !elementClass) {
+        addDOMElememtWithID(parentId, innerHTMLElement, elementID)
+    } else if (elementID && elementClass) {
+        addDOMElememtWithIdAndClass(parentId, innerHTMLElement, elementID, elementClass)
+    } else if (!elementID && elementClass) {
+        addDOMElememtWithClass(parentId,innerHTMLElement,elementClass)
+    } else if (!elementID && !elementClass) {
+        addDOMElememtNoParams(parentId, innerHTMLElement)
+    }
+}
+
 export default {
-    addDOMElememtNoParams,
-    addDOMElememtWithID,
-    addDOMElememtWithClass,
-    addDOMElememtWithIdAndClass
+    newElement
 }
 // All of the modules are coded by @glaukiol1

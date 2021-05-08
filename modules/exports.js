@@ -12,10 +12,7 @@ const addId = addClassId.addId;
 
 const createDiv = div.createDiv;
 
-const addDOMElememtNoParams = main.addDOMElememtNoParams;
-const addDOMElememtWithID = main.addDOMElememtWithID;
-const addDOMElememtWithClass = main.addDOMElememtWithClass;
-const addDOMElememtWithIdAndClass = main.addDOMElememtWithIdAndClass;
+const newElement = main.newElement;
 
 const h1 = one.h1;
 
@@ -28,10 +25,7 @@ const h4 = four.h4;
 const p = paragraph.p;
 
 export default {
-    newElement: addDOMElememtNoParams,
-    newElementWithId: addDOMElememtWithID,
-    newElementWithClass: addDOMElememtWithClass,
-    newElementWithIdAndClass: addDOMElememtWithIdAndClass,
+    newElement,
     h1,
     h2,
     h3,
