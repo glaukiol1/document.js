@@ -32,7 +32,7 @@ export default {
     h4,
     p,
     createDiv,
-    addClass,
+    addClasses: addClass,
     addId,
 }
 
