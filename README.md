@@ -40,4 +40,4 @@ Learn how to contribute [here](https://github.com/glaukiol1/document.js/blob/mai
 
 ## 🗒️ Notes
 
-document.js is still in a beta version. These long function names are activly being fixed in [PR #8](https://github.com/glaukiol1/document.js/pull/8). If you have any feedback, please open a new issue!
+document.js is still in a beta version!
