@@ -4,7 +4,7 @@ function h1HeadingWithIDandClass(parentId, innerHTMLElement, elementID, elementC
     if (!parentId || !innerHTMLElement || !elementID || !elementClass) {
         throw Error('Looks like you missed a paramenter / or submitted an incorrect one, at the call for h1HeadingWithID!')
     }
-    main.addDOMElememtWithClassAndID(parentId, 'h1', innerHTMLElement, elementClass, elementID);
+    main.addDOMElememtWithIdAndClass(parentId, 'h1', innerHTMLElement, elementID, elementClass);
 }
 
 function h1HeadingWithID(parentId, innerHTMLElement, elementID) {
@@ -28,10 +28,22 @@ function h1HeadingWithClass(parentId, innerHTMLElement, elementClass) {
     main.addDOMElememtWithClass(parentId, 'h1', innerHTMLElement, elementClass);
 }
 
+function h1(parentId, innerHTMLElement, elementID, elementClass) {
+    if (!parentId || !innerHTMLElement) {
+        throw Error('Looks like you missed / typed an incorrect parameter at the call for h1.')
+    }
+    if(elementID && !elementClass) {
+        h1HeadingWithID(parentId, innerHTMLElement, elementID)
+    } else if (elementID && elementClass) {
+        h1HeadingWithIDandClass(parentId, innerHTMLElement, elementID, elementClass)
+    } else if (!elementID && elementClass) {
+        h1HeadingWithClass(parentId,innerHTMLElement,elementClass)
+    } else if (!elementID && !elementClass) {
+        h1HeadingWithNoParams(parentId, innerHTMLElement)
+    }
+}
+
 export default {
-    h1HeadingWithIDandClass,
-    h1HeadingWithID,
-    h1HeadingWithNoParams,
-    h1HeadingWithClass
+    h1
 }
 // All of the modules are coded by @glaukiol1
