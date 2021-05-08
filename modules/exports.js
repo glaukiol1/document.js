@@ -21,10 +21,7 @@ const h1 = one.h1;
 
 const h2 = two.h2;
 
-const h3HeadingWithIDandClass = three.h3HeadingWithIDandClass;
-const h3HeadingWithID = three.h3HeadingWithID;
-const h3HeadingWithNoParams = three.h3HeadingWithNoParams;
-const h3HeadingWithClass = three.h3HeadingWithClass;
+const h3 = three.h3;
 
 const h4HeadingWithIDandClass = four.h4HeadingWithIDandClass;
 const h4HeadingWithID = four.h4HeadingWithID;
@@ -43,10 +40,7 @@ export default {
     newElementWithIdAndClass: addDOMElememtWithIdAndClass,
     h1,
     h2,
-    h3WithIdAndClass: h3HeadingWithIDandClass,
-    h3WithId: h3HeadingWithID,
-    h3: h3HeadingWithNoParams,
-    h3WithClass: h3HeadingWithClass,
+    h3,
     h4WithIdAndClass: h4HeadingWithIDandClass,
     h4WithId: h4HeadingWithID,
     h4: h4HeadingWithNoParams,
