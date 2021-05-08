@@ -65,4 +65,46 @@ If you want to put the new element in the `main_container` div, the _parentId_  
   
 </details>
 
+<details>
+  <summary><b> createDiv() </b></summary>
+    
+  ### createDiv(childArrayText*, childArrayType*, parentId*, newDivId*)
+  
+  This is an advnced function, you make a `<div>` with this, and you also add children to it.
+  
+  ---
+  
+  #### Parameters
+  
+  *required* __childArrayText__: This is a _array_. If you dont want to render any children, leave an empty array here. This is the children of the div, their _innerHTML_. If you want two elements inside the div, this argument would be something like this;
+  ```js
+    [
+      "Inner HTML 1",
+      "Inner HTML 2"
+    ]
+  ```
+  This will make the two elements inside the div with innerHTML `Inner HTML 1` & `Inner HTML 2`.
+  
+  *required* __childArrayType__: This is a _array_. The size of this array is the SAME as the last arguments size. This is the _tag names_ of the last argument. In the last example, we had two elements, with innerHTML `Inner HTML 1` & `Inner HTML 2`. In this argument, we define what types they are, for example `h1` or `h2` and so on. So an example of this argument would be;
+  ```js
+  [
+    "h1",
+    "p"
+  ]
+  ```
+  
+   *required* __parentId__: This argument is a _string_. It is the id of the _container_ in which you want to put this new element in. For example;
+```html
+...
+<div id="main_container">
+  
+</div>
+...
+```
+If you want to put the new element in the `main_container` div, the _parentId_  argument should be `main_container`.
+
+*required* __newDivId__: This argument is a _string_. The _id_ of the newly created div.
+</details>
+
+
 
