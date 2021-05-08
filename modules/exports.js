@@ -19,10 +19,7 @@ const addDOMElememtWithIdAndClass = main.addDOMElememtWithIdAndClass;
 
 const h1 = one.h1;
 
-const h2HeadingWithIDandClass = two.h2HeadingWithIDandClass;
-const h2HeadingWithID = two.h2HeadingWithID;
-const h2HeadingWithNoParams = two.h2HeadingWithNoParams;
-const h2HeadingWithClass = two.h2HeadingWithClass;
+const h2 = two.h2;
 
 const h3HeadingWithIDandClass = three.h3HeadingWithIDandClass;
 const h3HeadingWithID = three.h3HeadingWithID;
@@ -45,10 +42,7 @@ export default {
     newElementWithClass: addDOMElememtWithClass,
     newElementWithIdAndClass: addDOMElememtWithIdAndClass,
     h1,
-    h2WithIdAndClass: h2HeadingWithIDandClass,
-    h2WithId: h2HeadingWithID,
-    h2: h2HeadingWithNoParams,
-    h2WithClass: h2HeadingWithClass,
+    h2,
     h3WithIdAndClass: h3HeadingWithIDandClass,
     h3WithId: h3HeadingWithID,
     h3: h3HeadingWithNoParams,
