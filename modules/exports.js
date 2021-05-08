@@ -23,10 +23,7 @@ const h2 = two.h2;
 
 const h3 = three.h3;
 
-const h4HeadingWithIDandClass = four.h4HeadingWithIDandClass;
-const h4HeadingWithID = four.h4HeadingWithID;
-const h4HeadingWithNoParams = four.h4HeadingWithNoParams;
-const h4HeadingWithClass = four.h4HeadingWithClass;
+const h4 = four.h4;
 
 const paragraphWithIDandClass = p.paragraphWithIDandClass;
 const paragraphWithID = p.paragraphWithID;
@@ -41,10 +38,7 @@ export default {
     h1,
     h2,
     h3,
-    h4WithIdAndClass: h4HeadingWithIDandClass,
-    h4WithId: h4HeadingWithID,
-    h4: h4HeadingWithNoParams,
-    h4WithClass: h4HeadingWithClass,
+    h4,
     pWithIdAndClass: paragraphWithIDandClass,
     pWithId: paragraphWithID,
     p: paragraphWithNoParams,
