@@ -3,7 +3,7 @@ import one from './module-files/levelOneHeading.js';
 import two from './module-files/levelTwoHeading.js';
 import three from './module-files/levelThreeHeading.js';
 import four from './module-files/levelFourHeading.js';
-import p from './module-files/paragraph.js';
+import paragraph from './module-files/paragraph.js';
 import div from './module-files/div.js';
 import addClassId from './module-files/add-id-class.js';
 
@@ -25,10 +25,7 @@ const h3 = three.h3;
 
 const h4 = four.h4;
 
-const paragraphWithIDandClass = p.paragraphWithIDandClass;
-const paragraphWithID = p.paragraphWithID;
-const paragraphWithNoParams = p.paragraphNoParams;
-const paragraphWithClass = p.paragraphWithClass;
+const p = paragraph.p;
 
 export default {
     newElement: addDOMElememtNoParams,
@@ -39,10 +36,7 @@ export default {
     h2,
     h3,
     h4,
-    pWithIdAndClass: paragraphWithIDandClass,
-    pWithId: paragraphWithID,
-    p: paragraphWithNoParams,
-    pWithClass:paragraphWithClass,
+    p,
     createDiv,
     addClass,
     addId,
