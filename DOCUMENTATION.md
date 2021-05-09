@@ -1,4 +1,4 @@
-##document.js
+#document.js
 Sometimes, dealing with documents can be difficult, but thanks to document.js, a framework that helps you to interact with these files, you can do it easily
 
 Parameters with a `*` are required, ones with a `?`, are optional.
