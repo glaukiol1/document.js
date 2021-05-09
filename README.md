@@ -35,7 +35,7 @@ Look at the [docs](https://github.com/glaukiol1/Document.JS/blob/main/DOCUMENTAT
 The people below contributed to document.js;
 
 - [@Atkinstinkmoore](https://github.com/Atkinstinkmoore)
-- [@marcotduenas](https://github.com/marcotduenas) 
+- [@marcotduenas | Marco T.](https://github.com/marcotduenas) 
 
 Learn how to contribute [here](https://github.com/glaukiol1/document.js/blob/main/CONTRIBUTING.md#guide)
 
