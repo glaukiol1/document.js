@@ -27,7 +27,7 @@ In this tutorial, you will do the following;
 git clone https://github.com/<yourusernamehere>/document.js.git
 ```
 
-3. After you have the your fork of this repo on your computer, we want to make a new branch, and lets name add-glaukiol1;
+3. After you have the your fork of this repo on your computer, we want to make a new branch, and lets name bug-fixes;
 ```js
 $ git branch bug-fixes // this is the branch name
 
