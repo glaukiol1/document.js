@@ -41,4 +41,4 @@ Learn how to contribute [here](https://github.com/glaukiol1/document.js/blob/mai
 
 ## 🗒️ Notes
 
-document.js is still in a beta version!
+document.js is now discontinued.
